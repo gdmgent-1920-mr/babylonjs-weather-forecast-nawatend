@@ -1,3 +1,12 @@
+let files = [
+    "../assets/skyboxes/Space/space_left.jpg",
+    "../assets/skyboxes/Space/space_up.jpg",
+    "../assets/skyboxes/Space/space_front.jpg",
+    "../assets/skyboxes/Space/space_right.jpg",
+    "../assets/skyboxes/Space/space_down.jpg",
+    "../assets/skyboxes/Space/space_back.jpg",
+];
+
 let snowyScene = () => {
 
     let canvas = document.getElementById('canvas')
@@ -51,14 +60,7 @@ let snowyScene = () => {
         let skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
         skyboxMaterial.backFaceCulling = false;
 
-        var files = [
-            "../assets/skyboxes/Space/space_left.jpg",
-            "../assets/skyboxes/Space/space_up.jpg",
-            "../assets/skyboxes/Space/space_front.jpg",
-            "../assets/skyboxes/Space/space_right.jpg",
-            "../assets/skyboxes/Space/space_down.jpg",
-            "../assets/skyboxes/Space/space_back.jpg",
-        ];
+
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
         skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
@@ -71,7 +73,7 @@ let snowyScene = () => {
 
         BABYLON.SceneLoader.ImportMesh(clouds, "../assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
-                // var animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
+                // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
                 newMeshes.forEach((mesh, id) => {
                     //scene.beginDirectAnimation(mesh, [xSlide], 0, 2 * frameRate, true);
@@ -123,14 +125,7 @@ let sunnyScene = () => {
         let skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
         skyboxMaterial.backFaceCulling = false;
 
-        var files = [
-            "../assets/skyboxes/Space/space_left.jpg",
-            "../assets/skyboxes/Space/space_up.jpg",
-            "../assets/skyboxes/Space/space_front.jpg",
-            "../assets/skyboxes/Space/space_right.jpg",
-            "../assets/skyboxes/Space/space_down.jpg",
-            "../assets/skyboxes/Space/space_back.jpg",
-        ];
+
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
         skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
@@ -142,7 +137,7 @@ let sunnyScene = () => {
 
         BABYLON.SceneLoader.ImportMesh(clouds, "../assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
-                // var animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
+                // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
                 newMeshes.forEach((mesh, id) => {
                     //scene.beginDirectAnimation(mesh, [xSlide], 0, 2 * frameRate, true);
@@ -190,14 +185,7 @@ let rainyScene = () => {
         let skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
         skyboxMaterial.backFaceCulling = false;
 
-        var files = [
-            "../assets/skyboxes/Space/space_left.jpg",
-            "../assets/skyboxes/Space/space_up.jpg",
-            "../assets/skyboxes/Space/space_front.jpg",
-            "../assets/skyboxes/Space/space_right.jpg",
-            "../assets/skyboxes/Space/space_down.jpg",
-            "../assets/skyboxes/Space/space_back.jpg",
-        ];
+
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
         skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
@@ -210,7 +198,7 @@ let rainyScene = () => {
 
         BABYLON.SceneLoader.ImportMesh(clouds, "../assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
-                // var animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
+                // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
                 newMeshes.forEach((mesh, id) => {
                     //scene.beginDirectAnimation(mesh, [xSlide], 0, 2 * frameRate, true);
@@ -252,14 +240,7 @@ let cloudyScene = () => {
         let skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
         skyboxMaterial.backFaceCulling = false;
 
-        var files = [
-            "../assets/skyboxes/Space/space_left.jpg",
-            "../assets/skyboxes/Space/space_up.jpg",
-            "../assets/skyboxes/Space/space_front.jpg",
-            "../assets/skyboxes/Space/space_right.jpg",
-            "../assets/skyboxes/Space/space_down.jpg",
-            "../assets/skyboxes/Space/space_back.jpg",
-        ];
+
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
         skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
@@ -271,7 +252,7 @@ let cloudyScene = () => {
 
         BABYLON.SceneLoader.ImportMesh(clouds, "../assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
-                // var animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
+                // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
                 newMeshes.forEach((mesh, id) => {
                     //scene.beginDirectAnimation(mesh, [xSlide], 0, 2 * frameRate, true);
