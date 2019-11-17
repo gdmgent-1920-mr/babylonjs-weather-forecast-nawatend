@@ -20,7 +20,7 @@ let showPositionWeather = async (position) => {
         .then(json => {
             weatherName = json.weather[0].main
             localStorage.setItem("currentCityWeather", weatherName)
-            console.log(json.weather[0].main)
+            console.log("Today Weather is: " + json.weather[0].main)
         });
 }
 

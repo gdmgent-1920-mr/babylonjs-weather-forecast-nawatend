@@ -1,13 +1,17 @@
-let local = "../"
-let gitHub = ""
+let localUrl = ""
+
+
+if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+    localUrl = "../"
+}
 
 let files = [
-    "assets/skyboxes/Space/space_left.jpg",
-    "assets/skyboxes/Space/space_up.jpg",
-    "assets/skyboxes/Space/space_front.jpg",
-    "assets/skyboxes/Space/space_right.jpg",
-    "assets/skyboxes/Space/space_down.jpg",
-    "assets/skyboxes/Space/space_back.jpg",
+    localUrl + "assets/skyboxes/Space/space_left.jpg",
+    localUrl + "assets/skyboxes/Space/space_up.jpg",
+    localUrl + "assets/skyboxes/Space/space_front.jpg",
+    localUrl + "assets/skyboxes/Space/space_right.jpg",
+    localUrl + "assets/skyboxes/Space/space_down.jpg",
+    localUrl + "assets/skyboxes/Space/space_back.jpg",
 ];
 
 let snowyScene = () => {
@@ -26,7 +30,7 @@ let snowyScene = () => {
 
         // Create & launch a particule system
         let particleSystem = new BABYLON.ParticleSystem("snowParticles", 5000, scene); // 3600 particles to have a continue effect when computing circle positions
-        particleSystem.particleTexture = new BABYLON.Texture("assets/images/flare.png", scene);
+        particleSystem.particleTexture = new BABYLON.Texture(localUrl + "assets/images/flare.png", scene);
         particleSystem.color1 = new BABYLON.Color4(.9, .9, .95, 1.0);
         particleSystem.color2 = new BABYLON.Color4(0.2, 0.2, .3, .5);
         particleSystem.colorDead = new BABYLON.Color4(0, 0, 0.2, 0.0);
@@ -54,7 +58,7 @@ let snowyScene = () => {
         particleSystem.start();
 
         let decalMaterial = new BABYLON.StandardMaterial("decalMat", scene);
-        decalMaterial.diffuseTexture = new BABYLON.Texture("assets/images/impact.png", scene);
+        decalMaterial.diffuseTexture = new BABYLON.Texture(localUrl + "assets/images/impact.png", scene);
         decalMaterial.diffuseTexture.hasAlpha = true;
         decalMaterial.zOffset = -2;
 
@@ -74,7 +78,7 @@ let snowyScene = () => {
         //all my clouds meshes
         let clouds = ["cloud1", "cloud2", "cloud3", "cloud4", "cloud5", "cloud6", "cloud7", "cloud8", "cloud10", "cloud11", "cloud12"]
 
-        BABYLON.SceneLoader.ImportMesh(clouds, "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
+        BABYLON.SceneLoader.ImportMesh(clouds, localUrl + "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
                 // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
@@ -90,7 +94,7 @@ let snowyScene = () => {
 
     let scene = createScene()
 
-    BABYLON.SceneLoader.Append("assets/scenes_babylon/", "snowy.babylon", scene);
+    BABYLON.SceneLoader.Append(localUrl + "assets/scenes_babylon/", "snowy.babylon", scene);
     scene.executeWhenReady(function () {
         // Attach camera to canvas inputs
         scene.activeCamera.attachControl(canvas);
@@ -138,7 +142,7 @@ let sunnyScene = () => {
         //all my clouds meshes
         let clouds = ["cloud3", "cloud4", "cloud12"]
 
-        BABYLON.SceneLoader.ImportMesh(clouds, "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
+        BABYLON.SceneLoader.ImportMesh(clouds, localUrl + "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
                 // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
@@ -154,7 +158,7 @@ let sunnyScene = () => {
 
     let scene = createScene()
 
-    BABYLON.SceneLoader.Append("assets/scenes_babylon/", "sunny.babylon", scene);
+    BABYLON.SceneLoader.Append(localUrl + "assets/scenes_babylon/", "sunny.babylon", scene);
     scene.executeWhenReady(function () {
         // Attach camera to canvas inputs
         scene.activeCamera.attachControl(canvas);
@@ -199,7 +203,7 @@ let rainyScene = () => {
         //all my clouds meshes
         let clouds = ["cloud1", "cloud2", "cloud3", "cloud4", "cloud5", "cloud6", "cloud7", "cloud8", "cloud10", "cloud11", "cloud12"]
 
-        BABYLON.SceneLoader.ImportMesh(clouds, "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
+        BABYLON.SceneLoader.ImportMesh(clouds, localUrl + "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
                 // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
@@ -214,7 +218,7 @@ let rainyScene = () => {
 
     let scene = createScene()
 
-    BABYLON.SceneLoader.Append("assets/scenes_babylon/", "rainy.babylon", scene);
+    BABYLON.SceneLoader.Append(localUrl + "assets/scenes_babylon/", "rainy.babylon", scene);
     scene.executeWhenReady(function () {
         // Attach camera to canvas inputs
         scene.activeCamera.attachControl(canvas);
