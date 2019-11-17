@@ -52,12 +52,12 @@ let snowyScene = () => {
         skyboxMaterial.backFaceCulling = false;
 
         var files = [
-            "../assets/skyboxes/Space/space_left.jpg",
-            "../assets/skyboxes/Space/space_up.jpg",
-            "../assets/skyboxes/Space/space_front.jpg",
-            "../assets/skyboxes/Space/space_right.jpg",
-            "../assets/skyboxes/Space/space_down.jpg",
-            "../assets/skyboxes/Space/space_back.jpg",
+            "assets/skyboxes/Space/space_left.jpg",
+            "assets/skyboxes/Space/space_up.jpg",
+            "assets/skyboxes/Space/space_front.jpg",
+            "assets/skyboxes/Space/space_right.jpg",
+            "assets/skyboxes/Space/space_down.jpg",
+            "assets/skyboxes/Space/space_back.jpg",
         ];
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
@@ -67,7 +67,7 @@ let snowyScene = () => {
 
 
         //all my clouds meshes
-        let clouds = ["cloud1", "cloud2", "cloud3", "cloud4", "cloud5", "cloud6", "cloud7", "cloud8",  "cloud10", "cloud11", "cloud12"]
+        let clouds = ["cloud1", "cloud2", "cloud3", "cloud4", "cloud5", "cloud6", "cloud7", "cloud8", "cloud10", "cloud11", "cloud12"]
 
         BABYLON.SceneLoader.ImportMesh(clouds, "../assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
