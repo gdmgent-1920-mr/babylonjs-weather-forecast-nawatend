@@ -1,5 +1,5 @@
 let files = [
-    "../../assets/skyboxes/Space/space_left.jpg",
+    "babylonjs-weather-forecast-nawatend/assets/skyboxes/Space/space_left.jpg",
     "../assets/skyboxes/Space/space_up.jpg",
     "../assets/skyboxes/Space/space_front.jpg",
     "../assets/skyboxes/Space/space_right.jpg",
