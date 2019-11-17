@@ -15,7 +15,7 @@ let getLocationWeather = () => {
 }
 
 let showPositionWeather = async (position) => {
-    await fetch("http://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + apiKey)
+    await fetch("https://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + apiKey)
         .then(response => response.json())
         .then(json => {
             weatherName = json.weather[0].main
