@@ -257,7 +257,7 @@ let cloudyScene = () => {
         //all my clouds meshes
         let clouds = ["cloud1", "cloud2", "cloud3", "cloud4", "cloud5", "cloud6", "cloud7", "cloud8", "cloud10", "cloud11", "cloud12"]
 
-        BABYLON.SceneLoader.ImportMesh(clouds, "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
+        BABYLON.SceneLoader.ImportMesh(clouds, localUrl + "assets/scenes_babylon/", "clouds_anim.babylon", scene, function (newMeshes, particleSystems, skeletons) {
             scene.executeWhenReady(function () {
                 // let animation = scene.beginAnimation(newMeshes[1], 0, 20, true, 0.1);
                 // scene.activeCamera.attachControl(canvas, false);
@@ -273,7 +273,7 @@ let cloudyScene = () => {
 
     let scene = createScene()
 
-    BABYLON.SceneLoader.Append("assets/scenes_babylon/", "cloudy.babylon", scene);
+    BABYLON.SceneLoader.Append(localUrl + "assets/scenes_babylon/", "cloudy.babylon", scene);
     scene.executeWhenReady(function () {
         // Attach camera to canvas inputs
         scene.activeCamera.attachControl(canvas);
