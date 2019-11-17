@@ -3,8 +3,6 @@ window.addEventListener('DOMContentLoaded', () => {
     //get weather from get_weather.js
     //get scenes from scenes.js
     //render base of weather
-
-
     switch (localStorage.getItem("currentCityWeather")) {
         case "Rain":
             rainyScene()
