@@ -52,12 +52,12 @@ let snowyScene = () => {
         skyboxMaterial.backFaceCulling = false;
 
         var files = [
-            "assets/skyboxes/Space/space_left.jpg",
-            "assets/skyboxes/Space/space_up.jpg",
-            "assets/skyboxes/Space/space_front.jpg",
-            "assets/skyboxes/Space/space_right.jpg",
-            "assets/skyboxes/Space/space_down.jpg",
-            "assets/skyboxes/Space/space_back.jpg",
+            "../assets/skyboxes/Space/space_left.jpg",
+            "../assets/skyboxes/Space/space_up.jpg",
+            "../assets/skyboxes/Space/space_front.jpg",
+            "../assets/skyboxes/Space/space_right.jpg",
+            "../assets/skyboxes/Space/space_down.jpg",
+            "../assets/skyboxes/Space/space_back.jpg",
         ];
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
@@ -124,12 +124,12 @@ let sunnyScene = () => {
         skyboxMaterial.backFaceCulling = false;
 
         var files = [
-            "assets/skyboxes/Space/space_left.jpg",
-            "assets/skyboxes/Space/space_up.jpg",
-            "assets/skyboxes/Space/space_front.jpg",
-            "assets/skyboxes/Space/space_right.jpg",
-            "assets/skyboxes/Space/space_down.jpg",
-            "assets/skyboxes/Space/space_back.jpg",
+            "../assets/skyboxes/Space/space_left.jpg",
+            "../assets/skyboxes/Space/space_up.jpg",
+            "../assets/skyboxes/Space/space_front.jpg",
+            "../assets/skyboxes/Space/space_right.jpg",
+            "../assets/skyboxes/Space/space_down.jpg",
+            "../assets/skyboxes/Space/space_back.jpg",
         ];
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
@@ -191,12 +191,12 @@ let rainyScene = () => {
         skyboxMaterial.backFaceCulling = false;
 
         var files = [
-            "assets/skyboxes/Space/space_left.jpg",
-            "assets/skyboxes/Space/space_up.jpg",
-            "assets/skyboxes/Space/space_front.jpg",
-            "assets/skyboxes/Space/space_right.jpg",
-            "assets/skyboxes/Space/space_down.jpg",
-            "assets/skyboxes/Space/space_back.jpg",
+            "../assets/skyboxes/Space/space_left.jpg",
+            "../assets/skyboxes/Space/space_up.jpg",
+            "../assets/skyboxes/Space/space_front.jpg",
+            "../assets/skyboxes/Space/space_right.jpg",
+            "../assets/skyboxes/Space/space_down.jpg",
+            "../assets/skyboxes/Space/space_back.jpg",
         ];
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
@@ -253,12 +253,12 @@ let cloudyScene = () => {
         skyboxMaterial.backFaceCulling = false;
 
         var files = [
-            "assets/skyboxes/Space/space_left.jpg",
-            "assets/skyboxes/Space/space_up.jpg",
-            "assets/skyboxes/Space/space_front.jpg",
-            "assets/skyboxes/Space/space_right.jpg",
-            "assets/skyboxes/Space/space_down.jpg",
-            "assets/skyboxes/Space/space_back.jpg",
+            "../assets/skyboxes/Space/space_left.jpg",
+            "../assets/skyboxes/Space/space_up.jpg",
+            "../assets/skyboxes/Space/space_front.jpg",
+            "../assets/skyboxes/Space/space_right.jpg",
+            "../assets/skyboxes/Space/space_down.jpg",
+            "../assets/skyboxes/Space/space_back.jpg",
         ];
 
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture.CreateFromImages(files, scene);
