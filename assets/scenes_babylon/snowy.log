@@ -1,0 +1,270 @@
+Exporter version: 6.2.2, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  C:\Users\ntend\Desktop\AAA School 2019  2020\MR\babylonjs-weather-forecast-nawatend\assets\scenes_babylon\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  Plane
+		processing begun of material:  sky
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Icosphere.001
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.003
+		WARNING: No materials have been assigned: 
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  0
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  120
+	processing begun of mesh:  Icosphere.008
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.000
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.002
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Cube
+		processing begun of material:  grass
+		processing begun of material:  mountain
+		processing begun of material:  Material.002
+		processing begun of multimaterial:  snowy.Multimaterial#0
+		num positions      :  859
+		num normals        :  859
+		num tangents       :  0
+		num uvs            :  1718
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1428
+	processing begun of mesh:  Cylinder
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		processing begun of material:  Material.005
+		processing begun of multimaterial:  snowy.Multimaterial#1
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Cylinder.001
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		processing begun of material:  Material.003
+		registered as also a user of material:  Material
+		processing begun of multimaterial:  snowy.Multimaterial#2
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Cylinder.002
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		processing begun of material:  Material.006
+		registered as also a user of material:  Material
+		processing begun of multimaterial:  snowy.Multimaterial#3
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Cylinder.003
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		processing begun of material:  Material.004
+		registered as also a user of material:  Material
+		processing begun of multimaterial:  snowy.Multimaterial#4
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Icosphere.006
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.007
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.009
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.011
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere.013
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere
+		processing begun of material:  Material.007
+		num positions      :  240
+		num normals        :  240
+		num tangents       :  0
+		num uvs            :  480
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  240
+	processing begun of mesh:  Icosphere.018
+		processing begun of material:  Material.008
+		processing begun of material:  Material.009
+		processing begun of multimaterial:  snowy.Multimaterial#5
+		num positions      :  2026
+		num normals        :  2026
+		num tangents       :  0
+		num uvs            :  4052
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of mesh:  Icosphere.004
+		processing begun of material:  Material.008
+		processing begun of material:  Material.009
+		registered as also a user of material:  Material.009
+		processing begun of multimaterial:  snowy.Multimaterial#6
+		num positions      :  2026
+		num normals        :  2026
+		num tangents       :  0
+		num uvs            :  4052
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of mesh:  Icosphere.005
+		processing begun of material:  Material.008
+		processing begun of material:  Material.009
+		registered as also a user of material:  Material.009
+		processing begun of multimaterial:  snowy.Multimaterial#7
+		num positions      :  2026
+		num normals        :  2026
+		num tangents       :  0
+		num uvs            :  4052
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of mesh:  Icosphere.010
+		processing begun of material:  Material.008
+		processing begun of material:  Material.009
+		registered as also a user of material:  Material.009
+		processing begun of multimaterial:  snowy.Multimaterial#8
+		num positions      :  2026
+		num normals        :  2026
+		num tangents       :  0
+		num uvs            :  4052
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of mesh:  Icosphere.012
+		processing begun of material:  Material.008
+		processing begun of material:  Material.009
+		registered as also a user of material:  Material.009
+		processing begun of multimaterial:  snowy.Multimaterial#9
+		num positions      :  2026
+		num normals        :  2026
+		num tangents       :  0
+		num uvs            :  4052
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2040
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  Plane
+	writing mesh:  Icosphere.001
+	writing mesh:  Icosphere.003
+	writing mesh:  Icosphere.008
+	writing mesh:  Icosphere.000
+	writing mesh:  Icosphere.002
+	writing mesh:  Cube
+	writing mesh:  Cylinder
+	writing mesh:  Cylinder.001
+	writing mesh:  Cylinder.002
+	writing mesh:  Cylinder.003
+	writing mesh:  Icosphere.006
+	writing mesh:  Icosphere.007
+	writing mesh:  Icosphere.009
+	writing mesh:  Icosphere.011
+	writing mesh:  Icosphere.013
+	writing mesh:  Icosphere
+	writing mesh:  Icosphere.018
+	writing mesh:  Icosphere.004
+	writing mesh:  Icosphere.005
+	writing mesh:  Icosphere.010
+	writing mesh:  Icosphere.012
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.3206 secs

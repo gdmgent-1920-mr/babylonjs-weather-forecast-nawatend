@@ -1,0 +1,172 @@
+Exporter version: 6.2.2, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  C:\Users\ntend\Desktop\AAA School 2019  2020\MR\babylonjs-weather-forecast-nawatend\assets\scenes_babylon\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  Plane
+		processing begun of material:  sky
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  cloud2
+		animation processing begun
+			processing action cloud2Action:  in[0 - 109], out[0 - 109]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud4
+		animation processing begun
+			processing action cloud4Action:  in[0 - 109], out[0 - 109]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud7
+		animation processing begun
+			processing action cloud7Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud1
+		animation processing begun
+			processing action cloud1Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud3
+		animation processing begun
+			processing action cloud3Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud5
+		animation processing begun
+			processing action cloud5Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud6
+		animation processing begun
+			processing action cloud6Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud8
+		animation processing begun
+			processing action cloud8Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud9
+		animation processing begun
+			processing action cloud9Action:  in[1 - 111], out[0 - 111]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud11
+		animation processing begun
+			processing action cloud11Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud10
+		animation processing begun
+			processing action cloud10Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  cloud12
+		animation processing begun
+			processing action cloud12Action:  in[0 - 117], out[0 - 117]
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  Plane
+	writing mesh:  cloud2
+	writing mesh:  cloud4
+	writing mesh:  cloud7
+	writing mesh:  cloud1
+	writing mesh:  cloud3
+	writing mesh:  cloud5
+	writing mesh:  cloud6
+	writing mesh:  cloud8
+	writing mesh:  cloud9
+	writing mesh:  cloud11
+	writing mesh:  cloud10
+	writing mesh:  cloud12
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.924 secs

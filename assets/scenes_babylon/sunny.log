@@ -1,0 +1,141 @@
+Exporter version: 6.2.2, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  C:\Users\ntend\Desktop\AAA School 2019  2020\MR\babylonjs-weather-forecast-nawatend\assets\scenes_babylon\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  Plane
+		processing begun of material:  sky
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  Icosphere.004
+		WARNING: No materials have been assigned: 
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  0
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  120
+	processing begun of mesh:  Icosphere.005
+		WARNING: No materials have been assigned: 
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  0
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  120
+	processing begun of mesh:  Icosphere.002
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Cube
+		processing begun of material:  grass
+		processing begun of material:  mountain
+		processing begun of multimaterial:  sunny.Multimaterial#0
+		num positions      :  453
+		num normals        :  453
+		num tangents       :  0
+		num uvs            :  906
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  768
+	processing begun of mesh:  Cylinder
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		processing begun of multimaterial:  sunny.Multimaterial#1
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Cylinder.001
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		registered as also a user of material:  Material
+		processing begun of multimaterial:  sunny.Multimaterial#2
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Cylinder.002
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		registered as also a user of material:  Material
+		processing begun of multimaterial:  sunny.Multimaterial#3
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Cylinder.003
+		processing begun of material:  Material.001
+		processing begun of material:  Material
+		registered as also a user of material:  Material
+		processing begun of multimaterial:  sunny.Multimaterial#4
+		num positions      :  2108
+		num normals        :  2108
+		num tangents       :  0
+		num uvs            :  4216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2376
+	processing begun of mesh:  Icosphere.013
+		WARNING: No materials have been assigned: 
+		num positions      :  360
+		num normals        :  360
+		num tangents       :  0
+		num uvs            :  720
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Icosphere
+		processing begun of material:  Material.004
+		num positions      :  240
+		num normals        :  240
+		num tangents       :  0
+		num uvs            :  480
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  240
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  Plane
+	writing mesh:  Icosphere.004
+	writing mesh:  Icosphere.005
+	writing mesh:  Icosphere.002
+	writing mesh:  Cube
+	writing mesh:  Cylinder
+	writing mesh:  Cylinder.001
+	writing mesh:  Cylinder.002
+	writing mesh:  Cylinder.003
+	writing mesh:  Icosphere.013
+	writing mesh:  Icosphere
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.5923 secs
